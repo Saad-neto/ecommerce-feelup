@@ -1,0 +1,73 @@
+# WordPress core files (não versionar o WordPress core)
+/wp-admin/
+/wp-includes/
+/wp-*.php
+/xmlrpc.php
+/license.txt
+/readme.html
+
+# Configurações
+wp-config.php
+wp-config-sample.php
+.htaccess
+
+# Uploads e cache
+wp-content/uploads/
+wp-content/cache/
+wp-content/backup*/
+wp-content/backups/
+wp-content/upgrade/
+wp-content/ai1wm-backups/
+
+# Logs e temporários
+*.log
+error_log
+debug.log
+*.tmp
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Node modules e dependências
+node_modules/
+vendor/
+bower_components/
+
+# Cache de plugins
+wp-content/w3tc-config/
+wp-content/cache/
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+wp-content/object-cache.php
+
+# Plugins de cache específicos
+wp-content/plugins/litespeed-cache/.htaccess
+wp-content/plugins/*/cache/
+
+# Arquivos de sistema
+.env
+.env.*
+.idea/
+.vscode/
+*.sublime-*
+
+# Screenshots e arquivos temporários
+*.png
+!wp-content/themes/*/screenshot.png
+!wp-content/plugins/*/assets/**/*.png
+
+# Backups
+*.sql
+*.sql.gz
+*.tar.gz
+*.zip
+
+# Git
+.git/
+.gitattributes
+
+# Outros
+sitemap.xml
+sitemap.xml.gz
